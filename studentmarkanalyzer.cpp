@@ -81,6 +81,7 @@ using namespace std;
         int marks[100];
         int n;
         char choice;
+        cout << "\n  ===== MARK ANALYZER ===== \n";
         do
         {
             cout<<"Enter the number of students: ";
@@ -98,3 +99,4 @@ using namespace std;
         } while(choice == 'y' || choice == 'Y');
         return 0;
     }
+    
